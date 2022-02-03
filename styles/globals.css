@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item_box{
+  
+background: linear-gradient(180deg, #FFFFFF 0%, #fafafa 100%);
+box-shadow: 0px 4px 4px rgba(214, 214, 214, 0.25);
+border-radius: 10px;
+
+}
+.item_empty_bg{
+  background: linear-gradient(
+    180deg, #FFFFFF 0%, #fafafafa 100%);
+}
+.item_box_detail_bg{
+  
+background: linear-gradient(180deg, #FFFFFF 0%, #F6F6F6 100%);
+box-shadow: 0px 4px 4px rgba(214, 214, 214, 0.25);
+border-radius: 0px 0px 10px 10px;
+}
+
+#shop_menu_line{
+  
+background: linear-gradient(180deg, #FFFFFF 0%, #fafafafa 100%);
+box-shadow: 0px 4px 4px rgba(214, 214, 214, 0.25);
+border-radius: 10px;
+}
+
+.carousel .control-dots{
+  position: absolute;
+  bottom: 0;
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  /* width: 100%; */
+  width:auto !important;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  right: 0;
+}
+.carousel .control-dots .dot{
+  margin-top:40px !important;
+  background-color:#39BCFE !important;
+  width:10px !important;
+  height: 10px !important;
+}
+
+.dot.selected:after {
+  border-radius: 100%;
+  border: 2px solid #39BCFE;
+  content: '';
+  top: -5px;
+  padding-top: 0px;
+  padding-left: 20px;
+  position: relative;
+  left: -6px;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.home_title{
+  
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 100;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+letter-spacing: 0.2em;
+
+color: #5F5F5F;
+
+}
+
+.center_point{
+border-radius: 100%;
+
+background: #39BCFE;
+}
+
+.outside_point{
+  
+border-radius: 100%;
+border-color:#39BCFE;
+border-style: solid;
+}
